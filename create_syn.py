@@ -4,15 +4,7 @@ import os
 
 def create_synthetic_dataset(n_samples=1000, random_seed=42):
     """
-    Create synthetic dataset with the following structure:
-    - Columns 0-9 (X0-X9): Gaussian numerical features
-    - Columns 10-11 (X10-X11): 5-hot categorical features
-    - Column 12 (A): Binary treatment (0/1)
-    - Column 13 (Y1_0): Outcome when A=0 (continuous)
-    - Column 14 (Y1_1): Outcome when A=1 (continuous)
-    - Column 15 (Y2_0): Second outcome when A=0 (continuous)
-    - Column 16 (Y2_1): Second outcome when A=1 (continuous)
-
+    Create synthetic dataset
     Parameters:
     -----------
     n_samples : int
