@@ -1,0 +1,14 @@
+{
+    "name": "Synthetic",
+    "task_type": "binclass",
+    "header": "infer",
+    "num_col_idx": [0,1,2,3,4,5,6,7,8,9],
+    "cat_col_idx": [10],
+    "intervention_col_idx": [10],
+    "outcome_col_idx": [11,12,13,14],
+    "int_0_idx": [11,13],
+    "int_1_idx": [12,14],
+    "target_col_idx": [15],
+    "file_type": "csv"
+}
+
